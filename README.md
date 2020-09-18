@@ -8,6 +8,5 @@ APIから取得してくるデータは辞書型でネストされているた�
 `tutorial_*.ipynb` を使用する際に、書き換える必要のあるファイルについて。
 - src/config/config.pyファイル
     - key_file_location: Googleサービスアカウントの秘密鍵のパス
-        - 自社サイト分析の際は[こちら](https://datumstudio.atlassian.net/wiki/spaces/DSBWEB/pages/150864295/Google+Analytics+API)にて秘密鍵を取得する。
-        - 新たに取得する場合は秘密鍵は[こちら](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py)の `1. API を有効にする`を参考に。
+        - 秘密鍵は[こちら](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py)の `1. API を有効にする`を参考に。
     - view_id: GAの管理画面から、ビュー→ビューの設定→ビューIDの値
